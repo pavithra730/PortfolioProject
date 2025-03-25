@@ -1,11 +1,15 @@
 import React from 'react'
 
 const skills = [
-    { name: "React", level: "80%" },
-    { name: "JavaScript", level: "75%" },
-    { name: "CSS", level: "85%" },
     { name: "HTML", level: "90%" },
+    { name: "React", level: "55%" },
+    { name: "JavaScript", level: "60%" },
+    { name: "CSS", level: "80%" },
+    { name: "MySQL", level: "63%" },
+    { name: "Bootstrap", level: "40%" },
+    { name: "Python", level: "50%" },
     { name: "Git & GitHub", level: "70%" },
+    
   ];
 
 export const Skills = () => {
