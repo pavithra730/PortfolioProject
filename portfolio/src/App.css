@@ -189,7 +189,7 @@ div {
 
 .contact-form textarea {
   resize: none;
-  height: 100px;
+  height: 90px;
 }
 
 .contact-form button {
@@ -207,6 +207,77 @@ div {
 .contact-form button:hover {
   background-color: #2980b9;
 }
+/*about*/
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  animation: fadeSlideUp 0.5s ease-in-out;
+  
+}
+.scontainer{
+  text-align: center;
+  padding: 50px;
+  background-color: #dcdfe2;
+  border-radius: 10px;
+  margin: 20px;
+ 
+  
+}
+.sheading{
+  color:#2c3e50;
+}
+.stext{
+font-size: 18px;
+color: #333;
+max-width: 600px;
+margin: auto;
+line-height: 2;
+}
+.profile-img {
+  width: 145px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0;
+}
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ @media (max-width: 500px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  div {
+    margin-top: 0px;
+    padding: 10px ;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+} 
+
+
+
+
 
 
 
