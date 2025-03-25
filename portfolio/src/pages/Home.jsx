@@ -2,9 +2,11 @@ import React from 'react'
 
 export const Home = () => {
   return (
-    <div>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Explore my projects, skills and get in touch!</p>
+    <div className='home-container'>
+        <h1 className='home-title'>Welcome to My Portfolio</h1>
+        <p className='home-description'>
+        I am a passionate developer, eager to create amazing projects and grow in the tech industry.
+        </p>
     </div>
   )
 };
