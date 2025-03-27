@@ -77,7 +77,8 @@ div {
   justify-content: center;
   height: 80vh;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
+  animation: fadeSlideUp 0.5s ease-in-out;
 }
 
 .home-title {
@@ -100,6 +101,7 @@ div {
   justify-content: center;
   gap: 20px;
   padding: 35px;
+  animation: fadeSlideUp 0.5s ease-in-out;
 }
 
 .project-card {
@@ -134,6 +136,7 @@ div {
 .skills-container {
   text-align: center;
   padding: 20px;
+  animation: fadeSlideUp 0.5s ease-in-out;
 }
 
 .skills-list {
@@ -176,6 +179,7 @@ div {
 .contact-container {
   text-align: center;
   padding: 10px;
+  animation: fadeSlideUp 0.5s ease-in-out;
   
 }
 
