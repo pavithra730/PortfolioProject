@@ -69,6 +69,7 @@ div {
   margin: 5px;
   padding: 5px;
   text-shadow: 3px 4px 3px rgb(223, 150, 14);
+  animation: fadeSlideUp 2s ease-in-out;
 }
 .home-container {
   display: flex;
