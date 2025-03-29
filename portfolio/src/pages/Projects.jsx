@@ -2,7 +2,7 @@ import React from 'react'
 
 const projects = [
     { title: "Quiz App", description: "An interactive quiz application built with React." },
-    { title: "Spotify Clone", description: "A music streaming platform with React." },
+    { title: "Music Website", description: "A Basic music streaming platform using React." },
     { title: "Personal Portfolio", description: "Created a Personal Portfolio using React." },
     { title: "Weather App", description: "A simple Weather App using React with External API." },
     { title: "Sign-Up", description: "A simple Sign-up and Login page using React." },
